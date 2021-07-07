@@ -1,0 +1,9 @@
+.img {
+  width: 20rem;
+}
+.contdado {
+  border: solid 2px whitesmoke;
+  padding: 2rem 5rem;
+  max-width: 50rem;
+  max-height: 20rem;
+}

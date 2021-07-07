@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'proyect4';
   dadoI = '../assets/img/dice1.png';
-  dadoD = '../assets/img/dice2.png';
+  dadoD = '../assets/img/dice5.png';
 
   n1: number;
   n2: number;

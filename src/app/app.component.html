@@ -2,13 +2,14 @@
 <div class="container-fluid d-flex flex-column h-25">
   <button
     type="button"
-    class="btn btn-outline-success m-auto col-md-2"
+    class="btn btn-outline-success m-auto mb-5 col-md-2"
     (click)="tirardado()"
   >
     TIRAR DADOS
   </button>
-  <div class="container-fluid m-3 d-flex justify-content-center">
-    <img [src]="dadoI" class="img rounded mx-auto d-block" />
-    <img [src]="dadoD" class="img rounded mx-auto d-block" />
+  <div class="contdado container m-auto d-flex justify-content-center">
+    <img [src]="dadoI" class="img rounded mx-5 d-block" />
+    <img [src]="dadoD" class="img rounded mx-5 d-block" />
   </div>
+  <h1 *ngIf="n1 === n2" class="text-white text-center">WINNER..!!!</h1>
 </div>
